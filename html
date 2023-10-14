@@ -170,29 +170,62 @@
 
 
     <script>
-        var a = 0
-        var b = 0
-        var c = 0
+        var a = 0;
+        var b = 0;
+        var c = 0;
         function apple() {
-            a = a + 1
-            b = b + 1
-            c = c + 1
+            a = a + 1;
+            b = b + 1;
+            c = c + 1;
         }
     function bacon() {
-          a = a * 2
-          b = b * 2
-          c = c * 2
+          a = a * 2;
+          b = b * 2;
+          c = c * 2;
     }
         function cake() {
-            a = a / 2
-            b = b / 2
-            c = b / 2
+            a = a / 2;
+            b = b / 2;
+            c = c / 2;
         }
+        function dog() {
+            a = a + 1;
+        }
+        function hot() {
+            b = b + 1;
+        }
+        function cog() {
+            c = c + 1;
+        }  
+        function pig() {
+            a = a / 2;
+        }
+        function you() {
+            b = b / 2;
+        }
+        function tea() {
+            c = c / 2;
+        }
+        function big() {
+            a = a * 2;        
+        }
+        function win() {
+            b = b * 2;
+        }
+        function get() {
+            c = c * 2;
+        }
+        function showcount() {
+            documnet.getElementById("bone").innerHTML = "You have clicked " + a + "times!";
+        }
+                
+       
     </script>
 </head>
 
 <body>
-    <div class="title">
+   
+    <div class="title"> 
          TRIPLE NUMBER TRACKER
 
        
@@ -202,7 +235,7 @@
 
     <div class="informationDisplay">
         Enter a value
-
+ <li id="bone">Enter a value</li>
       
    </div>
 
